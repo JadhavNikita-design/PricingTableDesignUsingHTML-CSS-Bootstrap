@@ -1,0 +1,52 @@
+body{
+    background: aliceblue;
+}
+
+.single-princing{
+    background: #fcfcfc;
+    box-shadow: rgba(17,12,46,0.15) 0 48px 100px 0;
+    transition:all .5s ease
+}
+
+.deal-type{
+    background: linear-gradient(to bottom,#ff512f,#f09819);
+    letter-spacing: 2px;
+} 
+
+ .deal-amount{
+    clip-path: polygon(0 0 ,100% 0%,100% 52%,50% 100%,0% 50%);
+    background: linear-gradient(to right ,#ff512f,#f09819);
+} 
+
+
+.single-deal li{
+    font-family: montserrat,sans-serif;
+    padding:10px 0 ;
+}
+
+.btn{
+    background: linear-gradient(to right,#ff512f,#f09819);
+    border: none;
+    padding: 10px 50px;
+    /* color: #fff; */
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.single-pricing:hover{
+    transform: scale(1.05);
+    /* color: #fff; */
+}
+
+@media(max-width:767px){
+    .single-pricing{
+        margin-bottom: 30px;
+    }
+
+}  
+
+
+
+
